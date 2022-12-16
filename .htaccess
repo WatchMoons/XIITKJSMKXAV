@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME}.php -f 
+      RewriteCond %{REQUEST_FILENAME} !-f 
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ http://localhost:8080/CLASSWEB/$1.php/$1 [L]
+    
+</IfModule>
+

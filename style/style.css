@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,600&family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap");
+.content {
+  font-family: "poppins";
+}
+.content header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content .a {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.content .b {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content header img {
+  width: 100px;
+}
+/*index*/
+
+/*indexend*/
+.dashboard .sidebar .navbarside {
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+.dashboard .sidebar .logo {
+  width: 160px;
+}
+@media only screen and (max-width: 600px) {
+  .dashboard .sidebar .logo {
+    width: 100px;
+  }
+}
+
+.dashboard .navbar {
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+.dashboard .navbarside .menu {
+  margin-top: 20px;
+}
+.dashboard .navbarside .menu .link {
+  list-style: none;
+  padding: 0;
+  transition: 1s all;
+}
+.dashboard .navbarside .menu .link .nav-item {
+  margin-top: 5px;
+}
+.dashboard .navbarside .menu .link .nav-item:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(27, 2, 54),
+    rgba(30, 64, 255, 0)
+  );
+}
+.dashboard-home .content .card-glass {
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+.dashboard-created .content .card-glass {
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+}
+.dashboard .navbarside .menu .link .active {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(27, 2, 54),
+    rgba(30, 64, 255, 0)
+  );
+}
+.dashboard .content .title {
+  border-bottom: 3px solid #fff;
+}
+.navbar-fixed-top {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+}
+@media only screen and (max-width: 600px) {
+  .fixed-xl-top {
+    position: fixed;
+  }
+  .dashboard .navbar {
+    z-index: 1;
+  }
+  .dashboard .sidebar {
+    z-index: 1;
+  }
+}
